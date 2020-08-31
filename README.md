@@ -47,13 +47,13 @@ helm package rlt-test
 
 helm install rlt-test rlt-test-0.1.0.tgz
 
-/ * use kubectl get all, kubectl get service, kubectl get ingress to check status 
+/ * use kubectl get all, kubectl get service, kubectl get ingress to check status  */
 
 kubectl logs pod-name, kubectl describe pod pod-name to check errors
 
 Task 4) Fix any issues that may be present in the helm chart.
 
-Pod was able to pull image from GCR and start but forced to restart with error. was troubleshooting ...
+/* Pod was able to pull image from GCR and start but forced to restart with error. was troubleshooting ... */
 
 Task 5) Expose the application to the outside world.  
 
